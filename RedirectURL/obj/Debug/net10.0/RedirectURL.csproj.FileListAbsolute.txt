@@ -1,0 +1,11 @@
+C:\Users\ruanp\projects\UrlShortener\RedirectURL\bin\Debug\net10.0\RedirectURL.deps.json
+C:\Users\ruanp\projects\UrlShortener\RedirectURL\bin\Debug\net10.0\RedirectURL.dll
+C:\Users\ruanp\projects\UrlShortener\RedirectURL\bin\Debug\net10.0\RedirectURL.pdb
+C:\Users\ruanp\projects\UrlShortener\RedirectURL\obj\Debug\net10.0\RedirectURL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\projects\UrlShortener\RedirectURL\obj\Debug\net10.0\RedirectURL.AssemblyInfoInputs.cache
+C:\Users\ruanp\projects\UrlShortener\RedirectURL\obj\Debug\net10.0\RedirectURL.AssemblyInfo.cs
+C:\Users\ruanp\projects\UrlShortener\RedirectURL\obj\Debug\net10.0\RedirectURL.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\projects\UrlShortener\RedirectURL\obj\Debug\net10.0\RedirectURL.dll
+C:\Users\ruanp\projects\UrlShortener\RedirectURL\obj\Debug\net10.0\refint\RedirectURL.dll
+C:\Users\ruanp\projects\UrlShortener\RedirectURL\obj\Debug\net10.0\RedirectURL.pdb
+C:\Users\ruanp\projects\UrlShortener\RedirectURL\obj\Debug\net10.0\ref\RedirectURL.dll

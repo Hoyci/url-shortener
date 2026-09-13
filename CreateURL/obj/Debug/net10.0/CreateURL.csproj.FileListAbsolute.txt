@@ -1,0 +1,17 @@
+C:\Users\ruanp\projects\UrlShortener\CreateURL\obj\Debug\net10.0\CreateURL.csproj.AssemblyReference.cache
+C:\Users\ruanp\projects\UrlShortener\CreateURL\obj\Debug\net10.0\CreateURL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\projects\UrlShortener\CreateURL\obj\Debug\net10.0\CreateURL.AssemblyInfoInputs.cache
+C:\Users\ruanp\projects\UrlShortener\CreateURL\obj\Debug\net10.0\CreateURL.AssemblyInfo.cs
+C:\Users\ruanp\projects\UrlShortener\CreateURL\obj\Debug\net10.0\CreateURL.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\projects\UrlShortener\CreateURL\bin\Debug\net10.0\CreateURL.deps.json
+C:\Users\ruanp\projects\UrlShortener\CreateURL\bin\Debug\net10.0\CreateURL.dll
+C:\Users\ruanp\projects\UrlShortener\CreateURL\bin\Debug\net10.0\CreateURL.pdb
+C:\Users\ruanp\projects\UrlShortener\CreateURL\bin\Debug\net10.0\Auth.dll
+C:\Users\ruanp\projects\UrlShortener\CreateURL\bin\Debug\net10.0\IDGenerator.dll
+C:\Users\ruanp\projects\UrlShortener\CreateURL\bin\Debug\net10.0\Auth.pdb
+C:\Users\ruanp\projects\UrlShortener\CreateURL\bin\Debug\net10.0\IDGenerator.pdb
+C:\Users\ruanp\projects\UrlShortener\CreateURL\obj\Debug\net10.0\CreateURL.csproj.Up2Date
+C:\Users\ruanp\projects\UrlShortener\CreateURL\obj\Debug\net10.0\CreateURL.dll
+C:\Users\ruanp\projects\UrlShortener\CreateURL\obj\Debug\net10.0\refint\CreateURL.dll
+C:\Users\ruanp\projects\UrlShortener\CreateURL\obj\Debug\net10.0\CreateURL.pdb
+C:\Users\ruanp\projects\UrlShortener\CreateURL\obj\Debug\net10.0\ref\CreateURL.dll

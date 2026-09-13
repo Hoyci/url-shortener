@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "13H2DTAimGE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ruanp\\projects\\UrlShortener\\CreateURL\\CreateURL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ruanp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.5\\microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512",
+    "C:\\Users\\ruanp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.5\\microsoft.extensions.logging.abstractions.10.0.5.nupkg.sha512",
+    "C:\\Users\\ruanp\\.nuget\\packages\\npgsql\\9.0.0\\npgsql.9.0.0.nupkg.sha512",
+    "C:\\Users\\ruanp\\.nuget\\packages\\respite\\3.2.0\\respite.3.2.0.nupkg.sha512",
+    "C:\\Users\\ruanp\\.nuget\\packages\\stackexchange.redis\\3.2.0\\stackexchange.redis.3.2.0.nupkg.sha512",
+    "C:\\Users\\ruanp\\.nuget\\packages\\system.io.hashing\\10.0.12\\system.io.hashing.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
