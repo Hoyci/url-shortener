@@ -2,16 +2,23 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Auth\Auth.csproj" />
+    <ProjectReference Include="..\BuildingBlocks\BuildingBlocks.csproj" />
     <ProjectReference Include="..\CreateURL\CreateURL.csproj" />
     <ProjectReference Include="..\RedirectURL\RedirectURL.csproj" />
     <ProjectReference Include="..\Analytics\Analytics.csproj" />
     <ProjectReference Include="..\IDGenerator\IDGenerator.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
 
 </Project>

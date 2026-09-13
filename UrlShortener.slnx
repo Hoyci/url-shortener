@@ -2,6 +2,7 @@
   <Project Path="Analytics/Analytics.csproj" />
   <Project Path="Api/Api.csproj" />
   <Project Path="Auth/Auth.csproj" />
+  <Project Path="BuildingBlocks/BuildingBlocks.csproj" />
   <Project Path="CreateURL/CreateURL.csproj" />
   <Project Path="IDGenerator/IDGenerator.csproj" />
   <Project Path="RedirectURL/RedirectURL.csproj" />

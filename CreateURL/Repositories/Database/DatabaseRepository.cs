@@ -1,20 +1,13 @@
+using BuildingBlocks.Data;
 using Npgsql;
 
 namespace CreateURL.Repositories.Database;
 
-public class DatabaseRepository : IDatabaseRepository
+public class DatabaseRepository(IDbConnectionFactory connectionFactory) : IDatabaseRepository
 {
-    private readonly string _connectionString;
-
-    public DatabaseRepository(string connectionString)
-    {
-        _connectionString = connectionString;
-    }
-
     public async Task<string?> GetByLongURL(string longURL)
     {
-        await using var connection = new NpgsqlConnection(_connectionString);
-        await connection.OpenAsync();
+        await using var connection = await connectionFactory.CreateConnectionAsync();
 
         const string sql = "SELECT code FROM urls WHERE long_url = @long_url";
 
@@ -27,8 +20,7 @@ public class DatabaseRepository : IDatabaseRepository
 
     public async Task<string> Add(URL url)
     {
-        await using var connection = new NpgsqlConnection(_connectionString);
-        await connection.OpenAsync();
+        await using var connection = await connectionFactory.CreateConnectionAsync();
 
         const string sql = """
             INSERT INTO urls (id, long_url, code, custom_alias, created_at, expiration_date)

@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Auth\Auth.csproj" />
+    <ProjectReference Include="..\BuildingBlocks\BuildingBlocks.csproj" />
     <ProjectReference Include="..\IDGenerator\IDGenerator.csproj" />
   </ItemGroup>
 
