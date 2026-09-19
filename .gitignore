@@ -48,6 +48,15 @@ publish/
 .env
 *.env
 appsettings.*.local.json
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+infra/terraform/environments/production.tfvars
 
 ## OS files
 .DS_Store

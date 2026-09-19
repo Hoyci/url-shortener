@@ -1,19 +1,24 @@
 services:
-  postgres:
-    image: postgres:17
-    environment:
-      POSTGRES_DB: urlshortener
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+  floci:
+    image: floci/floci:latest
     ports:
-      - "5432:5432"
-    volumes:
-      - postgres-data:/var/lib/postgresql/data
-
-  redis:
-    image: redis:7-alpine
-    ports:
+      - "4566:4566"
       - "6379:6379"
+      - "7001:7001"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - floci-data:/app/data
+    environment:
+      FLOCI_DEFAULT_REGION: us-east-1
+      FLOCI_HOSTNAME: localhost
+      FLOCI_SERVICES_DOCKER_NETWORK: ${COMPOSE_PROJECT_NAME:-urlshortener}_default
+      FLOCI_SERVICES_ELASTICACHE_PROXY_BASE_PORT: "6379"
+      FLOCI_SERVICES_ELASTICACHE_PROXY_MAX_PORT: "6379"
+      FLOCI_SERVICES_RDS_PROXY_BASE_PORT: "7001"
+      FLOCI_SERVICES_RDS_PROXY_MAX_PORT: "7001"
+      FLOCI_SERVICES_RDS_ENDPOINT_HOST: localhost
+      FLOCI_STORAGE_MODE: persistent
+      FLOCI_STORAGE_PERSISTENT_PATH: /app/data
 
 volumes:
-  postgres-data:
+  floci-data:
